@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import App from './App.vue'
-import Hello from './components/HelloWorld.vue'
+import Hello from './components/Hello.vue'
 
 Vue.use(VueRouter)
 Vue.config.productionTip = false

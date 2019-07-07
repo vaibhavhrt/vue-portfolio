@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <main>
-      <img alt="Vue logo" src="./assets/logo.png">
       <router-view></router-view>
     </main>
   </div>
@@ -15,11 +14,14 @@ export default {
 </script>
 
 <style>
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 32;
+  padding: 32px;
   display: flex;
 }
 main {

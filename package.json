@@ -1,6 +1,7 @@
 {
   "name": "vue-portfolio",
   "version": "0.1.0",
+  "homepage": "https://vaibhavhrt.github.io/vue-portfolio/",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -1,7 +1,7 @@
 <template>
   <div class="root">
     <a
-      v-bind:href="`${publicPath}resume.pdf`"
+      v-bind:href="ResumePdf"
       target='_blank'
       rel='noopener noreferrer'
       download='Vaibhav Vishal Resume.pdf'
@@ -12,11 +12,12 @@
 </template>
 
 <script>
+import ResumePdf from '../assets/resume.pdf';
 export default {
   name: "Resume",
   data: function () {
     return {
-      publicPath: process.env.BASE_URL,
+      ResumePdf,
     }
   }
 }
